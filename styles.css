@@ -1,0 +1,25 @@
+body{
+    background-image: url("open_peeps.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center bottom;
+}
+#titre{
+    text-align: center;
+}
+button{
+    color: white;
+    background: black;
+    width: 300px;
+    height: 75px;
+    border-radius: 15px;
+    text-align: center;
+}
+#get_started{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
