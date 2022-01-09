@@ -22,4 +22,6 @@ button{
     justify-content: center;
     align-items: center; 
 }
-
+.result{
+    font-size: 80px;
+}
