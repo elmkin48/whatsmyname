@@ -9,17 +9,20 @@
   </head>
   <body>
       	<script src="index.js"></script>
+      <div class ="text_body">
       <form>
-        <h2> Name </h2>
-      <input type ="radio" name ="name" value="First Name">First Name<br/>
-        <input type="radio" name="name" value="Last Name">Last Name<br/>
+        <h2 class= "selection_title"> Name </h2>
+      <input type ="radio" name ="name" value="First Name"  style="height:20px; width:20px; vertical-align: middle;" class="radio_buttons" id="name_selection">First Name<br/>
+        <input type="radio" name="name" value="Last Name"  style="height:20px; width:20px; vertical-align: middle;" class="radio_buttons" id="name_selection">Last Name<br/>
 <!--
         <h2>Language</h2>
         <input type="radio" name="language" value="english">English<br/>
         <input type="radio" name="language" value="spanish">Spanish<br/>
         <input type="radio" name="language" value="french">French<br/>
 -->
-        <input type="button"onclick="selectionMade()" value="Next">
+        <input class="button_styling" type="button"onclick="selectionMade()" target= "_blank" value="Next">
       </form>
+<!--       <div class="lastname"></div>-->
+        </div>
 </body>
 </html>

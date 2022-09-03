@@ -8,12 +8,21 @@
   </head>
   <body>
 <script src="index.js"></script>
-      <h2> Select Gender</h2>
-        <input type="radio" name="gender" value="Female">Female<br/>
-        <input type="radio" name="gender" value="Male">Male<br/>
-        <input type="radio" name="gender" value="Gender Neutral">Gender Neutral<br/>
-<div class = next><button onclick="firstNames()">Submit</button> 
+    <div class = "text_body">
+    <form>
+      <h2 class= "selection_title"> Select Gender</h2>
+        <input class ="radio_buttons" type="radio" name="gender" value="Female" >Female<br/>
+        <input class ="radio_buttons"type="radio" name="gender" value="Male">Male<br/>
+        <input class ="radio_buttons" type="radio" name="gender" value="Gender Neutral">Gender Neutral<br/>
+        <input class="button_styling" type ="button" onclick="firstNames()"target="_blank" value= "Submit">
+        </form>
+<!--
+<div class = "next"><button id="final" onclick="firstNames()">Submit</button> 
 </div>
- <div class="result"></div>
+-->
+</div>
+ <div id ="female-name"></div>
+<div id="male-name"></div>
+<div id="nonbinary-name"></div>
     </body>
 </html>
