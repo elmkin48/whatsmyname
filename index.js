@@ -33,19 +33,19 @@ function firstNames(){
 }
 }
 function lastNames(){
-    let last_names =['Adams', 'Johnson', 'Smith', 'Carter','Santos', 'Perez', 'Haddad', 'Woods', 'Brown', 'Reid', 'Jones', 'Reynolds', 'Simpson', 'Brooks', 'Gardner', 'Clancy', 'Banks', 'Dawson','Cooper', 'Winterforth','Samson', 'Murphy','Crimson', 'Butterfield', 'Cartier']
+    let last_names = ['Adams', 'Johnson', 'Smith', 'Carter','Santos', 'Perez', 'Haddad', 'Woods', 'Brown', 'Reid', 'Jones', 'Reynolds', 'Simpson', 'Brooks', 'Gardner', 'Clancy', 'Banks', 'Dawson','Cooper', 'Winterforth','Samson', 'Murphy','Crimson', 'Butterfield', 'Cartier', 'Benson', 'Johnson', 'Richardson', 'Holland', 'Neumann', 'Woods', 'Cooper', 'Wheaton', 'Douglas']
     let last_name = last_names[Math.floor(Math.random()*last_names.length)]
     localStorage.setItem("Last Name", last_name)
     window.location = 'lastName.html'
 }
 function femaleNames(){
-    let female_names =['Sarah', 'Audrey', 'Samantha', 'Blossom', 'Amy', 'Kelly', 'Kimberly', 'Diana', 'Diane', 'Lisa', 'Justine', 'Betty', 'Anna', 'Sabrina', 'Jaya', 'Brianna', 'Penny', 'Kathrine', 'Paola', 'Cristina', 'Kristen', 'Julia', 'Stacey', 'Tiffany', 'Emma', 'Jane', 'Venus', 'Sarah', 'Kylie', 'Alicia', 'Brittney', 'Nicole']
+    let female_names = ['Sarah', 'Audrey', 'Samantha', 'Blossom', 'Amy', 'Kelly', 'Kimberly', 'Diana', 'Diane', 'Lisa', 'Justine', 'Betty', 'Anna', 'Sabrina', 'Jaya', 'Brianna', 'Penny', 'Kathrine', 'Paola', 'Cristina', 'Kristen', 'Julia', 'Stacey', 'Tiffany', 'Emma', 'Jane', 'Venus', 'Sarah', 'Kylie', 'Alicia', 'Brittney', 'Nicole', 'Jasmine', 'Courtnee']
         let female_name = female_names[Math.floor(Math.random()*female_names.length)] 
         localStorage.setItem("Female Name", female_name)       
         window.location = 'femaleName_result.html'
 }
 function maleNames(){
-    let male_names = ['Jake','Braxton', 'Timothy', 'Victor', 'Simon', 'Bradley', 'Millard', 'William', 'Harry', 'Christopher', 'Richard', 'Johnathan', 'Nathan', 'Willard', 'Nicolas', 'Joshua', 'David', 'Luke', 'Peter', 'Brian', 'Carlos', 'Miguel', 'Frank', 'Christoph', 'Marco', 'Marcus', 'Nikola', 'Jason', 'Hector', 'Julius', 'Donald', 'Andrew', 'Drew', 'Zayn', 'Garrett', 'Arnold', 'Carl', 'Sebastien', 'Leon']
+    let male_names = ['Jake','Braxton', 'Timothy', 'Victor', 'Simon', 'Bradley', 'Millard', 'William', 'Harry', 'Christopher', 'Richard', 'Johnathan', 'Nathan', 'Willard', 'Nicolas', 'Joshua', 'David', 'Luke', 'Peter', 'Brian', 'Carlos', 'Miguel', 'Frank', 'Christoph', 'Marco', 'Marcus', 'Nikola', 'Jason', 'Hector', 'Julius', 'Donald', 'Andrew', 'Drew', 'Zayn', 'Garrett', 'Arnold', 'Carl', 'Sebastien', 'Leon', 'Ethan', 'Ezra', 'Jesse', 'Jared', 'Jonah', 'Gideon', 'Asher']
     let male_name = male_names[Math.floor(Math.random()*male_names.length)]
     localStorage.setItem("Male Name", male_name)
     window.location = 'maleName_result.html'
