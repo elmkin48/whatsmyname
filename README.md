@@ -16,7 +16,7 @@ The tech stack is HTML, CSS, JavaScript. Each action button leads to a new page.
 Since this was a simple web application, I decided to create a minimal design. The background image is from [Open Peeps](https://www.openpeeps.com/) by Pablo Stanley. I used the Figma file to create the background by grouping individual peeps together and changing some of their characteristics (e.g. skin color) to create diversity among the peeps. The peeps are the sole background which is position center bottom for each page. Since I wanted to keep the webpage white and the peeps shared the color black, I decided to have a black and white scheme for font color and buttons. 
 
 ## Improvements
-[] Make the web application responsive
-[] Store the names in a JSON format or text file 
-[] Spice up the UI, while keeping it minimal
-[] Include names of different languages 
+[ ] Make the web application responsive
+[ ] Store the names in a JSON format or text file 
+[ ] Spice up the UI, while keeping it minimal
+[ ] Include names of different languages 
