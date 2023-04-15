@@ -39,7 +39,7 @@ function lastNames(){
     window.location = 'lastName.html'
 }
 function femaleNames(){
-    let female_names = ['Sarah', 'Audrey', 'Samantha', 'Blossom', 'Amy', 'Kelly', 'Kimberly', 'Diana', 'Diane', 'Lisa', 'Justine', 'Betty', 'Anna', 'Sabrina', 'Jaya', 'Brianna', 'Penny', 'Kathrine', 'Paola', 'Cristina', 'Kristen', 'Julia', 'Stacey', 'Tiffany', 'Emma', 'Jane', 'Venus', 'Sarah', 'Kylie', 'Alicia', 'Brittney', 'Nicole', 'Jasmine', 'Courtnee', 'Marvella', 'Patricia','Joy', 'Annabelle', 'Terra', 'Joyce', 'Alexa', 'Dakota','Orlandi','Sierra','Bria','Milly','Ceclia','Amanda', 'Jennifer', 'Tessa', 'Tierra', 'Cantarose', 'Katia', 'Leah', 'Carrie', 'Candance','Rita', 'Nita', 'Sydney', 'Sapphire', 'Pearl', 'Ruby', 'Trisha', 'Brandi', 'Lois' ,'Hailey', 'Cassie', 'Aisha']
+    let female_names = ['Sarah', 'Audrey', 'Samantha', 'Blossom', 'Amy', 'Kelly', 'Kimberly', 'Diana', 'Diane', 'Lisa', 'Justine', 'Betty', 'Anna', 'Sabrina', 'Jaya', 'Brianna', 'Penny', 'Kathrine', 'Paola', 'Cristina', 'Kristen', 'Julia', 'Stacey', 'Tiffany', 'Emma', 'Jane', 'Venus', 'Sarah', 'Kylie', 'Alicia', 'Brittney', 'Nicole', 'Jasmine', 'Courtnee', 'Marvella', 'Patricia','Joy', 'Annabelle', 'Terra', 'Joyce', 'Alexa', 'Dakota','Orlandi','Sierra','Bria','Milly','Ceclia','Amanda', 'Jennifer', 'Tessa', 'Tierra', 'Cantarose', 'Katia', 'Leah', 'Carrie', 'Candance','Rita', 'Nita', 'Sydney', 'Sapphire', 'Pearl', 'Ruby', 'Trisha', 'Brandi', 'Lois' ,'Hailey', 'Cassie', 'Aisha', 'Whitney']
         let female_name = female_names[Math.floor(Math.random()*female_names.length)] 
         localStorage.setItem("Female Name", female_name)       
         window.location = 'femaleName_result.html'
