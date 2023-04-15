@@ -62,6 +62,6 @@ function nonBinary(){
 
 }
 
-//function bothfirstLast(){
+//function bothFirstLastNames(){
 //    // to print first and last names
 //}
